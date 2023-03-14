@@ -1,0 +1,42 @@
+#title-form {
+    color: white;
+    display: inline-flexbox;
+    text-align: center;
+}
+
+.subtitle-form {
+    color: white;
+    text-align: center;
+}
+
+.login-link-form {
+    color: lightseagreen;
+}
+
+.remember-me {
+    color: white;
+}
+
+.form-floating {
+    margin: 10px 0px 10px 0px;
+}
+
+#login-form-container {
+    background-color: #212529;
+}
+
+.login-form {
+    display: inline-flexbox;
+    align-self: center;
+    padding: 13% 30% 10% 30%;
+}
+
+#form-copyright {
+    color: white;
+    text-align: center;
+}
+
+.container-fluid.mt-5.pt-5.bg-dark {
+    margin-top: 0 !important;
+    border: none
+}
