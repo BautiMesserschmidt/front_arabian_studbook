@@ -5,11 +5,12 @@
     
 
     /*/ NAV/*/
-     .log{
-        margin-left: 550px;
-        padding-left: 150px;
-
+    .navbar-logo {
+        position: absolute;
+        left: 51%;
+        transform: translateX(-50%);
       }
+     
 
       .navbar {
         padding-left: 5%;
@@ -22,35 +23,46 @@
     
     /*/ SEARCH/*/
     
-    .search_background{
-    height: 600px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 50px;
-    background: #212529 !important;
-    }
-
-    .searchbar{
-    margin-bottom: 5rem;
-    margin-top: auto;
-    height: 60px;
-    background-color: #353b48;
-    border-radius: 30px;
-    padding: 10px;
     
+    
+    .mi-section {
+        background-color: #000000;
+    }
+    
+    
+
+    .searchbar {
+        margin-bottom: 5rem;
+        height: 60px;
+        background-color: #353b48;
+        border-radius: 30px;
+        padding: 10px;
+        display: flex;
+        align-items: center; /* Agregado para centrar verticalmente */
     }
 
-    .search_input{
-    color: white;
-    border: 0;
-    outline: 0;
-    background: none;
-    width: 0;
-    caret-color:transparent;
-    line-height: 40px;
-    transition: width 0.4s linear;
+    .search_input {
+        color: white;
+        border: 0;
+        outline: 0;
+        background: none;
+        width: 100%; /* Cambiado a 100% */
+        caret-color: transparent;
+        line-height: 40px;
+        padding: 0 10px; /* Agregado para que el input tenga un padding */
     }
+    
+
+    .search_input.active {
+        color: white;
+        border: 0;
+        outline: 0;
+        background: none;
+        width: 400px;
+        caret-color:transparent;
+        line-height: 40px;
+        transition: width 0.4s linear;
+      }
 
     .searchbar:hover > .search_input{
     padding: 0 10px;
@@ -64,25 +76,25 @@
     color: #212529;
     }
 
-    .search_icon{
-    height: 40px;
-    width: 40px;
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    color:white;
-    text-decoration:none;
+    .search_icon {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: white;
+        text-decoration: none;
     }
 
 
     /*/ ROWS STYLE SECCIONES/*/
-   
+    
+
 
     /*/ ICONS STYLE SECCION/*/
     .bg-count3-section {
-    background: url(../imgs/caballo-corriendo-png-5.png) no-repeat fixed;
+    background: url(../imgs/over.jpg) no-repeat fixed;
     background-size: cover;
     background-position: 50% 50%;
     height: 300px;
@@ -92,7 +104,7 @@
 
     }
     .count3-overlay {
-    background: rgba(183, 190, 183, 0.72);
+    background: #73a6c8af;
     height: 300px;
     }
     .estadisticas_background{
@@ -103,6 +115,10 @@
     margin-bottom: 50px;
     
     }
+
+
+    /*/Animacion elementos/*/
+    
     
 
     /*/ FOOTER STYLE /*/
